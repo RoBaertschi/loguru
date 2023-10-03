@@ -342,6 +342,9 @@ namespace loguru
 		// Same as Verbosity_INFO in every way.
 		Verbosity_0       =  0,
 
+        // Log mostly unneeded messages
+        Verbosity_VERBOSE =  +1,
+
 		// Verbosity levels 1-9 are generally not written to stderr, but are written to file.
 		Verbosity_1       = +1,
 		Verbosity_2       = +2,
